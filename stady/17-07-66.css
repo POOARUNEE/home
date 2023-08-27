@@ -1,0 +1,80 @@
+body {
+    padding: 20px;
+  }
+  
+  .container {
+    border: 3px solid black;
+    /* height: 400px; */
+    width: 100%;
+    position: relative;
+  }
+  
+  .tag {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+  }
+  
+  .header {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.334);
+    margin-top: 0;
+    padding: 10px;
+  }
+  
+  .header-text {
+    transform: rotate(2deg);
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  small {
+    color: gray;
+  }
+  
+  .box-color {
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    display: inline-block;
+  }
+  
+  .box-red {
+    background-color: red;
+  }
+  
+  .box-green {
+    background-color: green;
+  }
+  
+  .box-blue {
+    background-color: blue;
+  }
+  
+  .box-pink {
+    background-color: pink;
+  }
+  
+  .product-detail-list {
+    list-style-type: disc;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    transform: scaleY(1.1);
+  }
